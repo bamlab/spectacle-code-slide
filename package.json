@@ -1,6 +1,6 @@
 {
   "name": "@bam.tech/spectacle-code-slide",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "Present code with style.",
   "main": "lib/index.js",
   "scripts": {
