@@ -1,14 +1,15 @@
-const React = require('react');
+const React = require("react");
+import nova from "nova-colors";
 
 const style = {
-  position: 'fixed',
-  bottom: '20px',
-  width: '100%',
-  padding: '20px',
-  background: 'black',
-  color: 'white',
-  fontFamily: 'monospace',
-  textAlign: 'left'
+  position: "fixed",
+  bottom: "20px",
+  width: "100%",
+  padding: "20px",
+  background: nova.grays.gray0,
+  color: nova.grays.gray6,
+  fontFamily: "monospace",
+  textAlign: "left"
 };
 
 class CodeSlideNote extends React.Component {
