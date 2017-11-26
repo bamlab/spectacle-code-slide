@@ -194,7 +194,7 @@ class CodeSlide extends React.Component {
     const loc = range.loc || [];
     const slideBg = bgColor || defaultBgColor;
 
-    style.color = color || style.color;
+    const style = { color, ...style };
 
     const lines = getHighlightedCodeLines(code, lang).map((line, index) => {
       return (
